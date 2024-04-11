@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Ethical Questions Bot',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -28,10 +28,10 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 227, 166, 62)),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 62, 161, 227)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Ethical questions'),
+      home: const MyHomePage(title: 'Ethical Questions Bot'),
     );
   }
 }
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'I hate you',
+              'Think like a human, Engage with machines, See the in between!',
             ),
             Text(
               '$_counter',
